@@ -7,7 +7,7 @@ const myFunc = () => {
 
 
 
-    fetch('/graphql', {
+    fetch('https://rocky-forest-78029.herokuapp.com/graphql', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
